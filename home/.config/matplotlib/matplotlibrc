@@ -28,6 +28,7 @@
 # You can also deploy your own backend outside of matplotlib by
 # referring to the module name (which must be in the PYTHONPATH) as
 # 'module://my_backend'
+# backend      : GTKCairo  # The Cairo backend can not draw paths longer than 18980 points.
 backend      : GTKAgg
 
 # if you are runing pyplot inside a GUI and your backend choice
